@@ -8,11 +8,38 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
+/* header h1 {
+
+} */
+
+.flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background: #0f172a;
-    color: white;
+    /* background: #0f172a;
+    color: white; */
+    /* justify-content: center; */
+    padding: 30px;
+}
+
+.list-item {
+    align-items: center;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #949494;
+    color: black;
 }
